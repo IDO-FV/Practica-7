@@ -1,0 +1,28 @@
+//Franco Vazquez Ian Javier
+
+#include <stdio.h>
+#include <math.h>
+
+void main ()
+{
+    int a, b, c, res;
+    
+    do
+    {
+        printf ("ingrese la operacion\n 1 = suma\n 2 = resta\n 3 = multiplicacion\n 4 = division\n 5 = raiz\n 6 = potencia\n 7 = salir\n");
+    scanf ("%i", &c);
+    }
+    while (c < 0 || c > 6)
+    
+    switch (c)
+    {
+        case 1:
+        printf ("Ingrese un numero\n");
+        scanf ("%i", &a);
+        printf ("Cuanto le quieres sumar?\n");
+        scanf ("%i", &b);
+        res = a + b;
+        printf (res)
+    }
+    
+}
